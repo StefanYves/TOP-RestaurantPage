@@ -3,8 +3,8 @@ import navDiv from "./nav";
 
 const content = document.getElementById("content");
 
-const homePage = document.createElement("div");
-homePage.classList.add(
+const menuPage = document.createElement("div");
+menuPage.classList.add(
   "bg-cover",
   "bg-center",
   "bg-pizza-img",
@@ -14,6 +14,7 @@ homePage.classList.add(
   "flex-col",
   "justify-center"
 );
+menuPage.style.display = "none";
 
 const infoDiv = document.createElement("div");
 infoDiv.classList.add("flex", "items-center", "justify-center", "h-full");
@@ -47,10 +48,12 @@ footer.innerHTML = `
 <span class="bg-github-img bg-cover ml-3 w-8 h-8"></span>
 </div>`;
 
-content.appendChild(homePage);
-homePage.appendChild(navDiv);
+content.appendChild(menuPage);
+// menuPage.appendChild(navDiv);
 infoDiv.appendChild(bgDiv);
-homePage.appendChild(infoDiv);
-homePage.appendChild(footer);
+menuPage.appendChild(infoDiv);
+menuPage.appendChild(footer);
 
-export default homePage;
+content.appendChild(menuPage);
+
+export default menuPage;

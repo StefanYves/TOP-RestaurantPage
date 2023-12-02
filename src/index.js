@@ -1,2 +1,2 @@
 import "./style.css";
-import coverdiv from "./home";
+import homePage from "./home";
