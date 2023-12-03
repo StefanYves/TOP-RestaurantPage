@@ -12,7 +12,8 @@ homePage.classList.add(
   "h-full",
   "flex",
   "flex-col",
-  "justify-center"
+  "justify-center",
+  "homePage"
 );
 
 const infoDiv = document.createElement("div");

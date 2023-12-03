@@ -1,6 +1,7 @@
 import "./style.css";
-import menuPage from "./menu";
-import homePage from "./home";
+
+const homePage = document.getElementsByClassName("homePage");
+const menuPage = document.getElementsByClassName("menuPage");
 
 const navDiv = document.createElement("div");
 navDiv.classList.add(
@@ -36,7 +37,7 @@ navDiv.innerHTML = `
 menuBtn.addEventListener("click", () => {
   homePage.style.display = "none";
   menuPage.style.display = "initial";
-  console.log(menuPage.style.display);
+  console.log(homePage);
 });
 
 navDiv.appendChild(btnDiv);

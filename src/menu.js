@@ -12,7 +12,9 @@ menuPage.classList.add(
   "h-full",
   "flex",
   "flex-col",
-  "justify-center"
+  "justify-center",
+  "hidden",
+  "menuPage"
 );
 menuPage.style.display = "none";
 
@@ -49,7 +51,7 @@ footer.innerHTML = `
 </div>`;
 
 content.appendChild(menuPage);
-// menuPage.appendChild(navDiv);
+menuPage.appendChild(navDiv);
 infoDiv.appendChild(bgDiv);
 menuPage.appendChild(infoDiv);
 menuPage.appendChild(footer);
