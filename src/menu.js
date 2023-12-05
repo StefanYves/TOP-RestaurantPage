@@ -33,19 +33,19 @@ bgDiv.classList.add(
   "overflow-hidden"
 );
 bgDiv.innerHTML = `
-<p class="text-4xl font-bold">Menu</p>
+<p class="text-4xl font-bold font-playfair">Menu</p>
 <hr class="w-48 h-1 bg-gray-100 border-0 rounded mt-5 dark:bg-gray-700">
-<p class="text-2xl font-bold mt-5">Pizza Neapolitan</p>
-<p class="text-gray-400 text-lg mt-2">raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil</p>
+<p class="text-2xl font-bold mt-5 font-ephesis">Pizza Neapolitan</p>
+<p class="text-gray-400 text-xl mt-2 font-playfair">raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil</p>
 <hr class="w-48 h-1 bg-gray-100 border-0 rounded mt-5 dark:bg-gray-700">
-<p class="text-2xl font-bold mt-5">Pizza Margherita</p>
-<p class="text-gray-400 text-lg mt-2">tomato sauce, fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt</p>
+<p class="text-2xl font-bold mt-5 font-ephesis">Pizza Margherita</p>
+<p class="text-gray-400 text-xl mt-2 font-playfair">tomato sauce, fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt</p>
 <hr class="w-48 h-1 bg-gray-100 border-0 rounded mt-5 dark:bg-gray-700">
-<p class="text-2xl font-bold mt-5">Pizza Marinara</p>
-<p class="text-gray-400 text-lg mt-2">tomato sauce, thinly sliced garlic, and oregano</p>
+<p class="text-2xl font-bold mt-5 font-ephesis">Pizza Marinara</p>
+<p class="text-gray-400 text-xl mt-2 font-playfair">tomato sauce, thinly sliced garlic, and oregano</p>
 <hr class="w-48 h-1 bg-gray-100 border-0 rounded mt-5 dark:bg-gray-700">
-<p class="text-2xl font-bold mt-5">Pizza Capricciosa</p>
-<p class="text-gray-400 text-lg mt-2">tomato puree, mozzarella, cremini mushrooms, artichoke hearts, black olives, and prosciutto cotto</p>
+<p class="text-2xl font-bold mt-5 font-ephesis">Pizza Capricciosa</p>
+<p class="text-gray-400 text-xl mt-2 font-playfair">tomato puree, mozzarella, cremini mushrooms, artichoke hearts, black olives, and prosciutto cotto</p>
 <hr class="w-48 h-1 bg-gray-100 border-0 rounded mt-5 dark:bg-gray-700">
 `;
 

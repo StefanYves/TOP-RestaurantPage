@@ -31,12 +31,12 @@ bgDiv.classList.add(
   "overflow-hidden"
 );
 bgDiv.innerHTML = `
-<p class="text-2xl font-bold">Best Pizza in the World</p>
-<p class="text-2xl font-bold mt-5">Since 1936</p>
+<p class="text-2xl font-bold font-playfair">Best Pizza in the World</p>
+<p class="text-2xl font-bold mt-5 font-ephesis">Since 1936</p>
 <div
   class="bg-chef-img h-72 w-72 rounded-full mt-5 overflow-hidden bg-cover bg-center"
 ></div>
-<p class="text-2xl font-bold mt-5">
+<p class="text-2xl font-bold font-playfair mt-5">
   Order online or visit our restaurant!
 </p>`;
 

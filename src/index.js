@@ -18,24 +18,30 @@ navDiv.classList.add(
   "bg-black",
   "bg-opacity-80",
   "text-white",
-  "p-10"
+  "p-5"
 );
 
 navDiv.innerHTML = `
-<p class="text-3xl">Best Pizzeria</p>
+<p class="text-6xl font-ephesis">Best Pizzeria</p>
 `;
 
 const btnDiv = document.createElement("div");
 btnDiv.classList.add("flex", "mt-5");
 const homeBtn = document.createElement("button");
 homeBtn.classList.add("home", "mr-5");
-homeBtn.innerText = "Home";
+homeBtn.innerHTML = `
+<p class="font-playfair text-lg">Home</p>
+`;
 const menuBtn = document.createElement("button");
 menuBtn.classList.add("menu", "mr-5", "ml-5");
-menuBtn.innerText = "Menu";
+menuBtn.innerHTML = `
+<p class="font-playfair text-lg">Menu</p>
+`;
 const contactBtn = document.createElement("button");
 contactBtn.classList.add("contact", "ml-5");
-contactBtn.innerText = "Contact";
+contactBtn.innerHTML = `
+<p class="font-playfair text-lg">Contact</p>
+`;
 btnDiv.appendChild(homeBtn);
 btnDiv.appendChild(menuBtn);
 btnDiv.appendChild(contactBtn);

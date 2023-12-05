@@ -10,6 +10,10 @@ module.exports = {
         location: "url('/src/images/location.png')",
       },
     },
+    fontFamily: {
+      ephesis: ["Ephesis", "cursive"],
+      playfair: ["Playfair Display", "serif"],
+    },
   },
   variants: {
     extend: {},
