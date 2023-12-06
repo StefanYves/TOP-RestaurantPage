@@ -28,17 +28,42 @@ navDiv.innerHTML = `
 const btnDiv = document.createElement("div");
 btnDiv.classList.add("flex", "mt-5");
 const homeBtn = document.createElement("button");
-homeBtn.classList.add("home", "mr-5");
+homeBtn.classList.add(
+  "home",
+  "mr-5",
+  "hover:scale-110",
+  "transition",
+  "duration-300",
+  "ease-in-out",
+  "hover:text-cyan-500"
+);
 homeBtn.innerHTML = `
 <p class="font-playfair text-lg">Home</p>
 `;
 const menuBtn = document.createElement("button");
-menuBtn.classList.add("menu", "mr-5", "ml-5");
+menuBtn.classList.add(
+  "menu",
+  "mr-5",
+  "ml-5",
+  "hover:scale-110",
+  "transition",
+  "duration-300",
+  "ease-in-out",
+  "hover:text-cyan-500"
+);
 menuBtn.innerHTML = `
 <p class="font-playfair text-lg">Menu</p>
 `;
 const contactBtn = document.createElement("button");
-contactBtn.classList.add("contact", "ml-5");
+contactBtn.classList.add(
+  "contact",
+  "ml-5",
+  "hover:scale-110",
+  "transition",
+  "duration-300",
+  "ease-in-out",
+  "hover:text-cyan-500"
+);
 contactBtn.innerHTML = `
 <p class="font-playfair text-lg">Contact</p>
 `;
