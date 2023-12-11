@@ -17,7 +17,13 @@ homePage.classList.add(
 );
 
 const infoDiv = document.createElement("div");
-infoDiv.classList.add("flex", "items-center", "justify-center", "h-full");
+infoDiv.classList.add(
+  "flex",
+  "items-center",
+  "justify-center",
+  "h-full",
+  "mt-12"
+);
 const bgDiv = document.createElement("div");
 bgDiv.classList.add(
   "flex",
@@ -27,7 +33,7 @@ bgDiv.classList.add(
   "bg-black",
   "bg-opacity-80",
   "text-white",
-  "p-12",
+  "p-8",
   "overflow-hidden"
 );
 bgDiv.innerHTML = `
@@ -36,7 +42,7 @@ bgDiv.innerHTML = `
 <div
   class="bg-chef-img h-72 w-72 rounded-full mt-5 overflow-hidden bg-cover bg-center"
 ></div>
-<p class="text-2xl font-bold font-playfair mt-5">
+<p class="text-xl font-bold font-playfair mt-5">
   Order online or visit our restaurant!
 </p>`;
 
